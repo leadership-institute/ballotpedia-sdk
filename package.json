@@ -1,0 +1,30 @@
+{
+  "name": "ballotpedia-sdk",
+  "version": "1.0.0",
+  "description": "A TypeScript SDK for interacting with the Ballotpedia API v4",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "tsx test.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ballotpedia",
+    "elections",
+    "politics",
+    "api",
+    "sdk"
+  ],
+  "author": "Leadership Institute",
+  "license": "MIT",
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
